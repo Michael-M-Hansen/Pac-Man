@@ -1,0 +1,19 @@
+.main-container {
+  width: 540px;
+  margin: 0 auto;
+}
+
+.body {
+  width: 100%;
+}
+
+.welcome-message {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+}
+
+#canvas {
+  /*border-radius: 30px;*/
+  border: 5px solid #F3F315;
+}
