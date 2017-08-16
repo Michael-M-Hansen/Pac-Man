@@ -7,13 +7,57 @@
   width: 100%;
 }
 
-.welcome-message {
-  text-align: center;
-  color: black;
-  font-family: sans-serif;
+#canvas {
+  border-radius: 8px;
+  border: 8px solid #F3F315;
 }
 
-#canvas {
-  /*border-radius: 30px;*/
-  border: 5px solid #F3F315;
+.credit {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-family: arial;
+  margin: 0;
+}
+
+.pacman-logo {
+  width: 300px;
+  text-align: center;
+  margin-left: 122px;
+  margin-top: 50px;
+}
+
+.image {
+  display: none;
+}
+
+.new-game {
+  position: absolute;
+  top: 310px;
+  right: 450px;
+  color: #F3F315;
+  font-size: 30px;
+  font-family: arial;
+}
+
+.next-level {
+  position: absolute;
+  top: 310px;
+  right: 430px;
+  color: #F3F315;
+  font-size: 30px;
+  font-family: arial;
+}
+
+.game-over {
+  position: absolute;
+  top: 310px;
+  right: 580px;
+  color: #F3F315;
+  font-size: 30px;
+  font-family: arial;
+}
+
+.hidden {
+  display: none;
 }
