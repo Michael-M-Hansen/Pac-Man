@@ -1,3 +1,3 @@
 # Pac-Man
 
-#### A clone of the classic arcade game Pac-Man.
+#### My version of the classic arcade game Pac-Man.
