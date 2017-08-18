@@ -19,7 +19,6 @@ The game plays just like the classic arcade version with some variations on the 
 
 ## Technologies
 
-#####
 1. HTML5
 2. HTML5 Canvas
 3. Vanilla JavaScript
