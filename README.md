@@ -17,4 +17,12 @@ The game plays just like the classic arcade version with some variations on the 
 
 ![gameplay screenshot](https://github.com/Madhava-Hansen/Pac-Man/blob/master/assets/images/gameplay_pacman.png)
 
-## Design
+## Technologies and Game Design
+
+#####
+1. HTML5
+2. HTML5 Canvas
+3. Vanilla JavaScript
+4. CSS3
+
+  
