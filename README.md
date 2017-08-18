@@ -14,10 +14,10 @@ The game plays just like the classic arcade version with some variations on the 
 3. arrows - change directions
 
 
-
 ![gameplay screenshot](https://github.com/Madhava-Hansen/Pac-Man/blob/master/assets/images/gameplay_pacman.png)
 
-## Technologies and Game Design
+
+## Technologies
 
 #####
 1. HTML5
@@ -25,4 +25,6 @@ The game plays just like the classic arcade version with some variations on the 
 3. Vanilla JavaScript
 4. CSS3
 
-  
+##Game Design
+
+##### I used the principals of object oriented programming while developing this project. My main GamePlay class handles all the game play logic. While the PacMan and Ghost classes handle the logic for each of those characters. In order to track the movement of characters in the game I decided to use a matrix and map numbers and positions on the matrix to know how to render character, white dots and animations on the canvas.
