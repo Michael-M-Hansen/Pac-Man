@@ -1,7 +1,5 @@
 # Pac-Man
 
-#### My version of the classic arcade game Pac-Man.
-
 [Play the live version here](www.madhavahansen.com/pacman)
 
 ## Instructions
@@ -15,4 +13,8 @@ The game plays just like the classic arcade version with some variations on the 
 2. "c" - start next level
 3. arrows - change directions
 
+
+
 ![gameplay screenshot](https://github.com/Madhava-Hansen/Pac-Man/blob/master/assets/images/gameplay_pacman.png)
+
+## Design
