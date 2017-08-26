@@ -11,7 +11,7 @@ The game plays just like the classic arcade version with some variations on the 
 
 1. "n" - new game
 2. "c" - start next level
-3. arrows - change directions
+3. arrow keys - change directions
 
 
 ![gameplay screenshot](https://github.com/Madhava-Hansen/Pac-Man/blob/master/assets/images/gameplay_pacman.png)
