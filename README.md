@@ -10,7 +10,7 @@ The game plays just like the classic arcade version with some variations on the 
 ## Controls
 
 1. "n" - new game
-2. "c" - start next level
+2. "n" - start next level
 3. arrow keys - change directions
 
 
