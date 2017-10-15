@@ -1,6 +1,6 @@
 # Pac-Man
 
-[Play the live version here](www.madhavahansen.com/pacman)
+[Play the live version here](https://www.madhavahansen.com/pacman)
 
 ## Instructions
 
