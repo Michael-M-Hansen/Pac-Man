@@ -16,14 +16,45 @@
     <img class="image" id="ghost-pink" src="./assets/images/ghost_pink.png" alt="ghost-pink">
     <img class="image" id="ghost-yellow" src="./assets/images/ghost_yellow.png" alt="ghost-yellow">
     <img class="image" id="ghost-kill-mode" src="./assets/images/ghost_kill_mode.png" alt="ghost-kill">
+    <audio id="pacman-beginning" src="./assets/sounds/pacman_beginning.wav"></audio>
+    <audio id="chomp-sound" src="./assets/sounds/pacman_chomp.wav"></audio>
+    <audio id="death-sound" src="./assets/sounds/pacman_death.wav"></audio>
+    <audio id="eating-ghost-sound" src="./assets/sounds/pacman_eatghost.wav"></audio>
+    <audio id="siren" src="./assets/sounds/siren.wav"></audio>
+
+
 
     <div class="main-container">
     <img class="pacman-logo" src="./assets/images/pacman_logo.png">
     <h3 class="credit">by Madhava Hansen</h3>
-    <h3 class="new-game" id="new-game">Press "n" to start a new game</h3>
-    <h3 class="hidden" id="next-level">Press "n" to start the next level</h3>
-    <h3 class="hidden" id="game-over">Game Over</h3>
-    <canvas id="canvas" width="540" height="380" ></canvas>
+    <div class="text-grid">
+      <h3 class="new-game" id="new-game">Press "n" to start a new game</h3>
+      <h3 class="hidden" id="next-level">Press "n" to start the next level</h3>
+      <h3 class="hidden" id="game-over">Game Over</h3>
+    </div>
+
+    <canvas id="canvas" width="540" height="380" >
+    </canvas>
+
+    <div class="links-container">
+      <ul class="links-list">
+        <li id="link-title" class="links">Links</li>
+        <li class="links"><a href="http://www.madhavahansen.com" target="_blank">Portfolio</a></li>
+        <li class="links"> <a href="https://github.com/Madhava-Hansen" target="_blank">GitHub</a> </li>
+        <li class="links"><a href="http://www.linkedin.com/in/madhavahansen/" target="_blank">LinkedIn</a></li>
+
+      </ul>
+      </div>
+      <div class="controls-container">
+      <ul class="controls-list">
+        <li id="control-title" class="controls">Key Controls</li>
+        <li class="controls">Move left:  &larr;</li>
+        <li class="controls">Move right:  &rarr;</li>
+        <li class="controls">Move up:  &uarr;</li>
+        <li class="controls">Move down:  &darr;</li>
+      </ul>
+      </div>
+      </div>
     </div>
   </body>
 </html>
