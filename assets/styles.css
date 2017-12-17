@@ -1,6 +1,7 @@
 .main-container {
   width: 540px;
   margin: 0 auto;
+  position: relative;
 }
 
 .body {
@@ -8,16 +9,19 @@
 }
 
 #canvas {
-  border-radius: 8px;
-  border: 8px solid #F3F315;
+  border-radius: 20px;
+  border: 4px solid #F3F315;
 }
 
 .credit {
   font-size: 20px;
-  color: black;
+  color: #F3F315;
   text-align: center;
   font-family: arial;
   margin: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
 }
 
 .pacman-logo {
@@ -31,10 +35,14 @@
   display: none;
 }
 
+.body {
+  background-color: black;
+}
+
 .new-game {
   position: absolute;
-  top: 310px;
-  right: 450px;
+  top: 300px;
+  right: 50px;
   color: #F3F315;
   font-size: 30px;
   font-family: arial;
@@ -43,8 +51,8 @@
 
 .next-level {
   position: absolute;
-  top: 310px;
-  right: 430px;
+  top: 300px;
+  right: 50px;
   color: #F3F315;
   font-size: 30px;
   font-family: arial;
@@ -53,8 +61,8 @@
 
 .game-over {
   position: absolute;
-  top: 310px;
-  right: 580px;
+  top: 300px;
+  right: 180px;
   color: #F3F315;
   font-size: 30px;
   font-family: arial;
@@ -63,4 +71,68 @@
 
 .hidden {
   display: none;
+}
+
+.links-container {
+  width: 80%;
+  position: absolute;
+  top: 260px;
+  left: -150px;
+}
+
+.links {
+  color: white;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.links-list {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #F3F315;
+}
+
+.links:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.links a:hover {
+  color: white;
+}
+
+#link-title {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.controls-container {
+  width: 500px;
+  position: absolute;
+  top: 250px;
+  right: -520px;
+}
+
+.controls {
+  color: #F3F315;
+}
+
+#control-title {
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+.controls-list {
+  list-style: none;
+}
+
+.controls {
+  margin-bottom: 20px;
 }
