@@ -49,6 +49,16 @@
   text-shadow: 2px 2px white;
 }
 
+.continue-game {
+  position: absolute;
+  top: 300px;
+  right: 30px;
+  color: #F3F315;
+  font-size: 30px;
+  font-family: arial;
+  text-shadow: 2px 2px white;
+}
+
 .next-level {
   position: absolute;
   top: 300px;
