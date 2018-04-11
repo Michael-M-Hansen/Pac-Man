@@ -8,9 +8,10 @@ The game plays just like the classic arcade version with some variations on the 
 
 ## Controls
 
-1. "n" - new game
-2. "n" - start next level
-3. arrow keys - change directions
+1. "n" - Start new game
+2. "n" - Start next level
+3. "c" - Continue a previously saved game
+3. Arrow keys - change directions
 
 
 ![gameplay screenshot](https://github.com/Madhava-Hansen/Pac-Man/blob/master/assets/images/gameplay_pacman.png)
@@ -22,7 +23,17 @@ The game plays just like the classic arcade version with some variations on the 
 2. HTML5 Canvas
 3. JavaScript
 4. CSS3
+5. Node.js
+6. Webpack
+
+## Local Storage
+
+I've utilized HTML5's localStorage to retain game data in the browsers memory. Players can close their browser and the current state of their game will be saved for the next time they visit my site. I've used JSON to stringify and then parse game data and reload the previous state for a seamless game play experience.
 
 ## Game Design
 
-I used the principals of object oriented programming while developing this project. My main GamePlay class handles all the game play logic. While the PacMan and Ghost classes handle the logic for each of those characters. In order to track the movement of characters in the game I decided to use a matrix and map numbers and positions on the matrix to know how to render characters, white dots and animations on the canvas.
+My game uses JavaScript modules to handle each classes logic and state. My object oriented approach has a PacMan class, a GamePlay class, a Ghost class and a Board class. All of these objects are interacting and being tracked on a matrix which is tracking positions and values using integer values to point to the current state of each position on the matrix.
+
+## CSS Sprites
+
+I've utilized CSS Sprites for the ghosts and PacMan animations in order to limit my server requests and optimize page speed loading.
