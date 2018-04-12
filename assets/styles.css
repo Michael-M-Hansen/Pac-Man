@@ -79,6 +79,16 @@
   text-shadow: 2px 2px white;
 }
 
+.restarting-game {
+  position: absolute;
+  top: 300px;
+  right: 140px;
+  color: #F3F315;
+  font-size: 30px;
+  font-family: arial;
+  text-shadow: 2px 2px white;
+}
+
 .hidden {
   display: none;
 }
@@ -145,4 +155,26 @@
 
 .controls {
   margin-bottom: 20px;
+}
+
+.reset-container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+#user-reset {
+  background-color: #0033FF;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #F3F315;
+  border: none;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#user-reset:hover {
+  color: white;
 }
