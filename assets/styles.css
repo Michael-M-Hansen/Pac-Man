@@ -10,18 +10,17 @@
 
 #canvas {
   border-radius: 20px;
-  border: 4px solid #F3F315;
+  border: 4px solid #f3f315;
 }
 
 .credit {
   font-size: 20px;
-  color: #F3F315;
+  color: #f3f315;
   text-align: center;
   font-family: arial;
   margin: 0;
   margin-bottom: 10px;
   margin-top: 10px;
-
 }
 
 .pacman-logo {
@@ -43,7 +42,7 @@
   position: absolute;
   top: 300px;
   right: 50px;
-  color: #F3F315;
+  color: #f3f315;
   font-size: 30px;
   font-family: arial;
   text-shadow: 2px 2px white;
@@ -53,7 +52,7 @@
   position: absolute;
   top: 300px;
   right: 30px;
-  color: #F3F315;
+  color: #f3f315;
   font-size: 30px;
   font-family: arial;
   text-shadow: 2px 2px white;
@@ -63,7 +62,7 @@
   position: absolute;
   top: 300px;
   right: 50px;
-  color: #F3F315;
+  color: #f3f315;
   font-size: 30px;
   font-family: arial;
   text-shadow: 2px 2px white;
@@ -73,7 +72,7 @@
   position: absolute;
   top: 300px;
   right: 180px;
-  color: #F3F315;
+  color: #f3f315;
   font-size: 30px;
   font-family: arial;
   text-shadow: 2px 2px white;
@@ -83,7 +82,7 @@
   position: absolute;
   top: 300px;
   right: 140px;
-  color: #F3F315;
+  color: #f3f315;
   font-size: 30px;
   font-family: arial;
   text-shadow: 2px 2px white;
@@ -115,7 +114,7 @@
 
 .links a {
   text-decoration: none;
-  color: #F3F315;
+  color: #f3f315;
 }
 
 .links:hover {
@@ -140,7 +139,7 @@
 }
 
 .controls {
-  color: #F3F315;
+  color: #f3f315;
 }
 
 #control-title {
@@ -163,11 +162,11 @@
 }
 
 #user-reset {
-  background-color: #0033FF;
+  background-color: #0033ff;
   width: 100px;
   margin: 0 auto;
   margin-top: 20px;
-  color: #F3F315;
+  color: #f3f315;
   border: none;
   height: 40px;
   font-size: 15px;

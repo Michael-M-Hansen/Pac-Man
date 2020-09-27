@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111194420-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111194420-1');
+    </script>
     <meta charset="utf-8">
     <title>Pac-Man</title>
     <script type="text/javascript" src="./lib/bundle.js"></script>
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="icon" href="./assets/images/pacman_right.png" type="image/x-icon" />
+
   </head>
   <body class="body">
     <img class="image" id="right" src="./assets/images/pacman_right.png" alt="right">
@@ -32,11 +43,9 @@
       <h3 class="hidden" id="continue-game">Press "c" to continue your game</h3>
       <h3 class="hidden" id="next-level">Press "n" to start the next level</h3>
       <h3 class="hidden" id="game-over">Game Over</h3>
-      <h3 class="hidden" id="restarting-game">Restarting Game...</h3>
-
     </div>
 
-    <canvas id="canvas" width="540" height="380">
+    <canvas id="canvas" width="540" height="380" >
     </canvas>
 
     <div class="links-container">
@@ -58,7 +67,7 @@
       </ul>
       </div>
       </div>
-      <div class="reset-container">
+        <div class="reset-container">
         <button id="user-reset">Reset Game</button>
       </div>
     </div>
